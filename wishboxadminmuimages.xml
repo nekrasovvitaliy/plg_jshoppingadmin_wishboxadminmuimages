@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0.0" type="plugin" method="upgrade" group="jshoppingadmin">
+	<name>plg_jshoppingadmin_wishboxadminmuimages</name>
+	<creationDate>December 2017</creationDate>
+	<copyright>Copyright (C) 2013-2017 WishBox. All rights reserved.</copyright>
+	<version>1.0.0</version>
+	<author>Vitaliy Nekrasov</author>
+	<authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
+	<license>GNU General Public License version 2 or later</license>
+	<description>PLG_JSHOPPINGADMIN_WISHBOXADMINMUIMAGES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="wishboxadminmuimages">wishboxadminmuimages.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<media destination="plg_jshoppingadmin_wishboxadminmuimages" folder="media">
+		<folder>js</folder>
+	</media>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_jshoppingadmin_wishboxadminmuimages.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_jshoppingadmin_wishboxadminmuimages.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_jshoppingadmin_wishboxadminmuimages.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_jshoppingadmin_wishboxadminmuimages.sys.ini</language>
+		<language tag="uk-UA">language/uk-UA/uk-UA.plg_jshoppingadmin_wishboxadminmuimages.ini</language>
+		<language tag="uk-UA">language/uk-UA/uk-UA.plg_jshoppingadmin_wishboxadminmuimages.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
